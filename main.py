@@ -46,3 +46,24 @@ print(f"{blue}[*] IP Address: {ip_address}{reset}")
 print("\n")
 
 print("-------------------------------------------------")
+
+print("\n")
+
+print("1. Search for networks in the area")
+print("2. Display passwords for networks in your area")
+print("3. Exit")
+
+print("\n")
+
+choice = input("> ")
+
+if choice == "1":
+  print("Coming soon :(")
+  exit()
+
+if choice == "2":
+  print("Comming soon :(")
+  exit()
+
+if choice == "3":
+  exit()
